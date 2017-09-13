@@ -1,0 +1,116 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Rony Rodriguez, Web Developer</title>
+	<!--
+	<link rel="stylesheet" type="text/css" href="style.css">
+	-->
+	<style type="text/css">
+		h1 {
+			font-style: italic;
+		}
+		p {
+			display: inline-block;
+			width: 30%;
+		}
+		section {
+			display: inline-block;
+			width: 30%;
+			border: solid 5px #FA0000;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		/* Padding is the space within the borders, margin is the space outside the border */
+		section h1 {
+			text-align: center;
+		}
+		section:hover {
+			background-color: orange;
+			text-decoration: none;
+			padding: 30px;
+		}
+		.UandG {
+			text-decoration: underline;
+			color: rgb(0, 155, 0);
+		}
+		.BandI {
+			font-weight: 900;
+			font-style: italic;
+		}
+		h2.makebig {
+			font-size:100px
+		}
+		h3.makebig {
+			font-size: 60px;
+		}
+		#feet {
+			color: rgb(150, 100, 0);
+		}
+		a:visited {
+			color: #FF00FF;
+		}
+
+		@media screen and (max-width: 500px){
+			body {
+				background-color: red;
+			}
+		}
+		/*
+		section {
+			display: block;
+			width: 100%;
+		}
+		*/
+		/* CSS-Tricks.com /*
+	</style>
+</head>
+<body bgcolor="#888888" style="color: #FFFFFF">
+	<h1 style="color: red;">Welcome!</h1>
+	<h1>This is a bridge between worlds</h1>
+
+	<h1 style="position: absolute; top: 175px; left: 40%">Rony Rodriguez</h1>
+	<h1 style="position: fixed; top: 0px; right: 15px;"><a href="mailto:ronyrod0101@gmail.com">RonyRod0101@gmail.com</a></h1>
+
+	<!-- Research Static, Relative, Fixed & Absolute -->
+	
+	<br><br><br><br><br>
+	
+	<section>
+		<h1 class="UandG">About Me</h1>
+		<h4>I'm really cool.</h4>
+		<a href="AboutMe.html">FIND OUT MORE...</a>
+	</section>
+	<section>
+		<h1 class="UandG">Experience</h1>
+		<h4>HTML, CSS, JavaScript, Python</h4>
+		<a href="Experience.html">FIND OUT MORE...</a>
+	</section>
+
+	<div align="center" class="section">
+	<h1><span>Contact Me</span></h1>
+	<svg class="face" height="100" width="100">
+		<circle cx="50" cy="50" r="50" fill="#00FF00"/>
+		<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+		<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+		<circle cx="30" cy="30" r="5" fill="#000000"/>
+		<circle cx="70" cy="30" r="5" fill="#000000"/>
+		<path d="M 30 70 q 20 20 40 0" stroke="#000000" stroke-width="5" fill="none" />
+		
+	</svg>
+	
+	<form>
+		<input name="name" placeholder="Name" type="text" required /><br>
+		<input name="email" placeholder="Email" type="email" required /><br>
+		<textarea name="message" placeholder="Message" required ></textarea>
+		<input type="submit" value="SEND" class="submit" />
+	</form>
+	</div>
+
+	<br><br><br>
+	
+	<!-- No 2 elements should have the same ID -->
+	<div align="center" class="copyright">
+		&copy; 2017 All rights reserved
+	</div>
+</body>
+</html>
